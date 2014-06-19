@@ -16,6 +16,7 @@
 #its get() function.
 #It also stores the value of the inverse matrix calculated by cacheSolve(using setinverse()),
 # and this inverse matrix can be retrieved using getinverse().
+#makeCacheMatrix returns a list with the value of all the functions it contains.
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL                 
   set <- function(y){     
